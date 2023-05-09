@@ -1,5 +1,6 @@
 package ugmaybachengine;
 
+
 import org.lwjgl.BufferUtils;
 
 import java.nio.FloatBuffer;
@@ -12,8 +13,8 @@ import static org.lwjgl.opengl.GL30.glGenVertexArrays;
 public class LevelEditorScene extends Scene {
 	
 	private String vertexShaderSrc = "#version 410 core\n" +
-			"layout (location = 0) in vec3 aPos;\n" +
-			"layout (location = 1) in vec4 aColor;\n" +
+			"layout (location=0) in vec3 aPos;\n" +
+			"layout (location=1) in vec4 aColor;\n" +
 			"\n" +
 			"out vec4 fColor;\n" +
 			"\n" +
